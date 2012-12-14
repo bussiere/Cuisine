@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = u'Bussiere'
-SITENAME = u'Bussiere Blog'
-SITEURL = 'http://bussiere.github.com/Blog'
+SITENAME = u'Bussiere Cuisine'
+SITEURL = 'http://bussiere.github.com/Cuisine'
 
 TIMEZONE = 'Europe/Paris'
-FEED_DOMAIN = 'http://bussiere.github.com/Blog'
+FEED_DOMAIN = 'http://bussiere.github.com/Cuisine'
 DEFAULT_LANG = u'en'
 
 # Blogroll
