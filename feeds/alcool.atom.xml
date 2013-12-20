@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bussiere Cuisine</title><link href="http://bussiere.github.com/Cuisine/" rel="alternate"></link><link href="http://bussiere.github.com/Cuisine/feeds/alcool.atom.xml" rel="self"></link><id>http://bussiere.github.com/Cuisine/</id><updated>2013-12-20T00:00:00+01:00</updated><entry><title>Test avec du Vin Rouge</title><link href="http://bussiere.github.com/Cuisine/test-avec-du-vin-rouge.html" rel="alternate"></link><updated>2013-12-20T00:00:00+01:00</updated><author><name>Bussiere</name></author><id>tag:bussiere.github.com/Cuisine,2013-12-20:test-avec-du-vin-rouge.html</id><summary type="html">&lt;p&gt;A tester&lt;/p&gt;
+&lt;p&gt;Faire une sauce au vin rouge et au beurre de cacahuette.&lt;/p&gt;</summary><category term="Vin Rouge"></category><category term="Beurre de cacahuette"></category></entry><entry><title>Cognac aux amandes</title><link href="http://bussiere.github.com/Cuisine/cognac-aux-amandes.html" rel="alternate"></link><updated>2012-12-15T00:00:00+01:00</updated><author><name>Bussiere</name></author><id>tag:bussiere.github.com/Cuisine,2012-12-15:cognac-aux-amandes.html</id><summary type="html">&lt;p&gt;La recette du cognac aux amandes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ingredients :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;amandes (100gr pour 75 cl de cognac)&lt;/li&gt;
+&lt;li&gt;Cognac (de basse qualité).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Instrument :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Etamine&lt;/li&gt;
+&lt;li&gt;Sopalin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Recette :&lt;/p&gt;
+&lt;p&gt;Ecrasez les amandes, faites les torréfier dans une poele sans gras.&lt;/p&gt;
+&lt;p&gt;Versez les sur du papier absorbant pour enlever le gout de la graisse.&lt;/p&gt;
+&lt;p&gt;Laissez refroidir.&lt;/p&gt;
+&lt;p&gt;Mettez dans un recipient couvert avec le cognac, laissez macerer 8 jours.&lt;/p&gt;
+&lt;p&gt;Apres les 8 jours passez le cognac a l'etamine et mettez en bouteille.&lt;/p&gt;</summary><category term="Alcool"></category><category term="Cognac"></category><category term="Amande"></category><category term="etamine"></category></entry></feed>
