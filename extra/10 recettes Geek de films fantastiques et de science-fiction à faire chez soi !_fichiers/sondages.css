@@ -1,0 +1,303 @@
+/**/
+/**/
+/**/
+.sondage_radio {
+	margin: 0 0 10px 0;
+}
+.sondage_radio > div [type="radio"]:not(:checked),
+.sondage_radio > div [type="radio"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+.sondage_radio > div [type="radio"]:not(:checked) + label,
+.sondage_radio > div [type="radio"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+.sondage_radio > div [type="radio"]:not(:checked) + label:before,
+.sondage_radio > div [type="radio"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; top: 0;
+  width: 16px; height: 16px;
+  border: 1px solid #aaa;
+  background: #f8f8f8;
+  border-radius: 15px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.sondage_radio > div [type="radio"]:not(:checked) + label:after,
+.sondage_radio > div [type="radio"]:checked + label:after {
+  content: '\2022';
+  position: absolute;
+  top: 0; left: 1px;
+  font-size: 41px;
+  color: #a22728;
+  transition: all 0.2s;
+}
+.sondage_radio > div [type="radio"]:not(:checked) + label:after {  
+  opacity: 0;
+  transform: scale(0);
+}  
+.sondage_radio > div [type="radio"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+.sondage_radio > div [type="radio"]:disabled:not(:checked) + label:before,
+.sondage_radio > div [type="radio"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+.sondage_radio > div [type="radio"]:disabled:checked + label:after {
+  color: #999;
+}
+.sondage_radio > div [type="radio"]:disabled + label {  
+  color: #aaa;  
+}
+.sondage_radio > div [type="radio"]:checked:focus + label:before,
+.sondage_radio > div [type="radio"]:not(:checked):focus + label:before {  
+  border: 1px dotted grey;
+}
+.sondage_radio > div [type="radio"]:not(:checked) + label.little_radio:after,
+.sondage_radio > div [type="radio"]:checked + label.little_radio:after {
+	top: -10px;
+}
+.selected {
+	background-color: #ebebeb !important;
+	border: 1px solid #c9c9c9 !important;
+}
+/**/
+/**/
+/**/
+.sondage_checkbox {
+	margin: 0 0 10px 0;
+}
+.sondage_checkbox > div [type="checkbox"]:not(:checked),
+.sondage_checkbox > div [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+.sondage_checkbox > div [type="checkbox"]:not(:checked) + label,
+.sondage_checkbox > div [type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+.sondage_checkbox > div [type="checkbox"]:not(:checked) + label:before,  
+.sondage_checkbox > div [type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; top: 2px;
+  width: 16px; height: 16px;
+  border: 1px solid #aaa;
+  background: #f8f8f8;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+}
+.sondage_checkbox > div [type="checkbox"]:not(:checked) + label:after,
+.sondage_checkbox > div [type="checkbox"]:checked + label:after {
+  content: '\2713';
+  position: absolute;
+  top: 5px; left: 4px;
+  font-size: 15px;
+  color: #a22728;
+  transition: all 0.2s;
+}
+.sondage_checkbox > div [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+.sondage_checkbox > div [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+.sondage_checkbox > div [type="checkbox"]:disabled:not(:checked) + label:before,
+.sondage_checkbox > div [type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+.sondage_checkbox > div [type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+.sondage_checkbox > div [type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+.sondage_checkbox > div [type="checkbox"]:checked:focus + label:before,
+.sondage_checkbox > div [type="checkbox"]:not(:checked):focus + label:before {
+  border: 1px dotted grey;
+}
+/**/
+/**/
+/**/
+.content-articles .sondage_container {
+	border: none;
+}
+.content-articles .sondage_container h2 {
+	margin: 0;
+	font-size:20px;
+}
+.content-articles .sondage_container .content-title {
+	background: none;
+	border-bottom: none;
+}
+.content-articles .sondage_container .sondage_radio > [type="radio"]:not(:checked) + label:after,
+.content-articles .sondage_container .sondage_radio > [type="radio"]:checked + label:after {
+	top: 2px;
+}
+.content-articles .sondage_container .sondage_checkbox > [type="checkbox"]:not(:checked) + label:after,
+.content-articles .sondage_container .sondage_checkbox > [type="checkbox"]:checked + label:after {
+	top: 2px;
+	left:4px;
+}
+.sondage_container {
+	border: 1px solid #EAEAEA;
+	width: 100%;
+	margin: 0 1% 15px 1px;
+	font-size: 16px;
+}
+.sondage_container .question_container .questions-padd{
+	/*padding: 10px 10px 0 10px;*/
+}
+.sondage_container .question_container h6 {
+	font: 16px "League Gothic",sans-serif;
+	color: #999999;
+	text-transform: uppercase;
+	margin: 0;
+	margin: 10px 0 5px 10px;
+}
+.sondage_container .question_container h6 span.sond-nbquestions {
+	color: #2d2d2d;
+}
+.sondage_container .next-question, .sondage_container input[type='submit'], .sondage_container .button-restart {
+	width: 183px;
+	height: 23px;
+	margin: -2px 0px 10px 10px;
+	color: #FFFFFF;
+	background-color: #2d2d2d;
+	font: 13px sans-serif;
+	border: 1px solid #2d2d2d;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+/*.sondage_container input[type='submit'] {
+	margin: 15px 0px -5px 10px;
+}*/
+.content-articles .sondage_container input[type='submit'] {
+	margin: 5px 0px 10px 10px;
+}
+.sondage_container h4 {
+	margin: 10px 0 10px 10px;
+	text-transform: uppercase;
+}
+.sondage_container ul {
+	padding: 10px;
+	background: #f9f9f9;
+	border-top: 1px solid #e9e9e9;
+}
+.sondage_container ul li {
+	margin: 5px 5px 0 0;
+	font-size: 14px;
+}
+.sondage_container ul li .voted {
+	color: #a22728;
+}
+.scores-bar {
+    height: 40px;
+    width: 100%;
+    position: relative;
+    top: 2px;
+    background: #FFFFFF;
+    border: 1px solid #f9f9f9;
+}
+.scores-bar:hover {
+	border:1px solid #c9c9c9;
+}
+.background-bar-sondage {
+	background: #ffd4d4 url("../img/gradient-sondage.png") no-repeat right;
+	/* gradient	
+	background: -moz-linear-gradient(left,  #ffd4d4 90%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(90%,#ffd4d4), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(left,  #ffd4d4 90%,#ffffff 100%);
+	background: -o-linear-gradient(left,  #ffd4d4 90%,#ffffff 100%);
+	background: -ms-linear-gradient(left,  #ffd4d4 90%,#ffffff 100%);
+	background: linear-gradient(to right,  #ffd4d4 90%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd4d4', endColorstr='#ffffff',GradientType=1 );*/
+	position:absolute;
+	top:0;bottom:0;
+}
+.scoring-question {
+	position:absolute;
+	top:10px;left:20px;bottom:0;
+	width: 90%;
+}
+.scoring-bar {
+    position: relative;
+    color:#a22728;
+    width:auto;
+    position:absolute;
+    top:6px;right:15px;bottom:0;
+}
+.scoring-bar strong { font: 25px "League Gothic", sans-serif; }
+.sondage_container div.result-quizz {
+	padding: 10px;
+	background: #f9f9f9;
+	border-top: 1px solid #e9e9e9;
+}
+.sondage_container div.content-result-quizz {
+	width: 85%;
+}
+.sondage_container .score-quizz {
+	font: 40px 'League Gothic', sans-serif;
+	color: #2d2d2d;
+}
+.sondage_container .score-quizz span.redder {
+	color: #a22728;
+}
+.sondage_container .friends-quizz {
+	font: 30px 'League Gothic', sans-serif;
+	color: #2d2d2d;
+}
+.sondage_container .text-quizz {
+	font: 14px 'Droid Sans', sans-serif;
+	color: #2d2d2d;
+}
+.fb-flat-share-quizz {
+	font: 25px "League Gothic", sans-serif;
+	color: #ffffff !important;
+	background-color: #3e5a97;
+	padding: 11px 20px 8px 20px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+		 -o-border-radius: 3px;
+			border-radius: 3px;
+}
+.input-share-quizz {
+	color: #adadad;
+	font: 12px "Droid Sans",sans-serif;
+	padding: 10px;
+	border: 1px solid #e9e9e9;
+	width: 40%;
+}
+input[type='submit'].quizz-email {
+	margin:0 0 15px 0 !important;
+	position: relative;
+	top: 2px;
+	padding: 0;
+	width: 140px;
+	color: #FFFFFF;
+	background-color: #2d2d2d;
+	height: 36px;
+	border: none;
+	border-bottom: 4px solid #020202;
+	font: 24px "League Gothic",sans-serif;
+	text-transform: uppercase;
+}
+input[type='submit'].quizz-email:active {
+	border-bottom: 2px solid #020202;
+}
+/**/

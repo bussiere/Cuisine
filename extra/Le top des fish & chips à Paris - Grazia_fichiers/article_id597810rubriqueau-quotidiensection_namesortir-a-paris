@@ -1,0 +1,274 @@
+document.write('<scr'+'ipt src="http://stcwbd.com/ads/js/inc.functions-permanent-v6fbd61d9b7945b4b95e636fdb087bf5a.js"></scr'+'ipt>')
+var wads=wads || {};wads.scripts=[];wads.scripts['middle']={ 
+	 directVastUrl: '', 
+	 videoPlayerScriptUrl: 'http://ads.webedia.fr/include/videoplayer', 
+	 display: function(){ var output_26150='';
+
+
+wads_insertion_26150_creatives=new Array(1);
+
+
+			var creative=new Array(11);
+creative[0]='http://stcwbd.com/ads/0/26/15/0/@/47547-461391.jpg';
+creative[1]='300';
+creative[2]='600';
+creative[3]='47547';
+creative[4]='http://ads.webedia.fr/imppix/i26150/c47547/p203/po35/cam[wads_call_master]/cm[wads_creative_master]/cid0/pl22722/r7133085';
+creative[5]='http://ads.webedia.fr/clickcmd/i26150/c47547/p203/po35/pl22722/r7133085';
+creative[6]=1;
+creative[7]='';
+creative[8]='';
+creative[9]='';
+creative[10]='';
+creative[11]='_blank';
+wads_insertion_26150_creatives[0]=creative;			
+
+	var i=0;
+
+	if(wads_insertion_26150_creatives[i][6]==1) {
+
+		output_26150+='<a target="' + wads_insertion_26150_creatives[i][11] + '" href="' + wads.randomize(wads_insertion_26150_creatives[i][5]) + '"><img src="' + wads_insertion_26150_creatives[i][0] + '" width="' + wads_insertion_26150_creatives[i][1] + '" height="' + wads_insertion_26150_creatives[i][2] + '" border="0" /></a>';
+
+				output_26150+=wads.callMasterize(wads.creativeMasterize(26150, '<img src="' + wads.randomize(wads_insertion_26150_creatives[i][4]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />'));
+
+				if(wads_insertion_26150_creatives[i][10]!='') {
+			output_26150+='<img src="' +  wads.randomize(wads_insertion_26150_creatives[i][10]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />';
+		};
+	}
+	else if(wads_insertion_26150_creatives[i][6]==2) {
+		if (wads.browser.hasFlash) {
+			/* flash */
+			output_26150+='<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="' + document.location.protocol + '//download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" ';
+			output_26150+=' id="wads_creative_' + wads_insertion_26150_creatives[i][3] + '" name="wads_creative_' + wads_insertion_26150_creatives[i][3] + '" width="' + wads_insertion_26150_creatives[i][1] + '" height="' + wads_insertion_26150_creatives[i][2] + '"> ';
+			output_26150+=' <param name="allowScriptAccess" value="always" />';
+			output_26150+=' <param name="movie" value="' + wads_insertion_26150_creatives[i][0] + '"> ';
+			output_26150+=' <param name="flashvars" value="wads_insertion_id=26150' + wads_insertion_26150_creatives[i][13] + '&target=' + wads_insertion_26150_creatives[i][12] + '&clicktag=' + wads.randomize(encodeURIComponent(wads_insertion_26150_creatives[i][5])) + '&clickTAG=' + wads.randomize(encodeURIComponent(wads_insertion_26150_creatives[i][5])) + '&clickTag=' + wads.randomize(encodeURIComponent(wads_insertion_26150_creatives[i][5])) + '"> ';
+			output_26150+=' <param name="quality" value="high"> ';
+			output_26150+=' <param name="wmode" value="' + wads_insertion_26150_creatives[i][12] + '"> ';
+			output_26150+=' <embed name="wads_creative_' + wads_insertion_26150_creatives[i][3] + '" id="wads_creative_' + wads_insertion_26150_creatives[i][3] + '" src="' + wads_insertion_26150_creatives[i][0] + '" flashvars="wads_insertion_id=26150' + wads_insertion_26150_creatives[i][13] + '&target='+ wads_insertion_26150_creatives[i][12] + '&clicktag=' + wads.randomize(encodeURIComponent(wads_insertion_26150_creatives[i][5])) + '&clickTAG=' + wads.randomize(encodeURIComponent(wads_insertion_26150_creatives[i][5])) + '&clickTag=' + wads.randomize(encodeURIComponent(wads_insertion_26150_creatives[i][5])) + '" ';
+			output_26150+=' swLiveConnect="true" width="' + wads_insertion_26150_creatives[i][1] + '" height="' + wads_insertion_26150_creatives[i][2] + '" ';
+			output_26150+=' quality="high" wmode="' + wads_insertion_26150_creatives[i][12] + '" ';
+			output_26150+=' allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer"> ';
+			output_26150+='</embed> ';
+			output_26150+='</object> ';
+		}
+		else if (!(navigator.appName && navigator.appName.indexOf('Netscape')>=0 && navigator.appVersion.indexOf('2.')>=0)) {
+			/* alternate image */
+			output_26150+='<a target="_blank" href="' + wads.randomize(wads_insertion_26150_creatives[i][5]) + '"><img src="' + wads_insertion_26150_creatives[i][7] + '" width="' + wads_insertion_26150_creatives[i][8] + '" height="' + wads_insertion_26150_creatives[i][9] + '" border="0" /></a>';
+		};
+
+				output_26150+=wads.callMasterize(wads.creativeMasterize(26150, '<img src="' + wads.randomize(wads_insertion_26150_creatives[i][4]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />'));
+
+				if(wads_insertion_26150_creatives[i][10]!='') {
+			output_26150+='<img src="' +  wads.randomize(wads_insertion_26150_creatives[i][10]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />';
+		};
+
+	}
+	else if(wads_insertion_26150_creatives[i][6]==3) {
+
+		output_26150+=wads.randomize(wads.mergeStringArray(wads_insertion_26150_creatives[i][7]));
+
+				output_26150+=wads.callMasterize(wads.creativeMasterize(26150, '<img src="' + wads.randomize(wads_insertion_26150_creatives[i][4]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />'));
+
+	}
+	else if(wads_insertion_26150_creatives[i][6]==4) {
+
+		output_26150+='<iframe src="' + wads_insertion_26150_creatives[i][0] + '" width="' + wads_insertion_26150_creatives[i][1] + '" height="' + wads_insertion_26150_creatives[i][2] + '" scrolling="no" frameborder="no" name="wads_iframe_' + wads_insertion_26150_creatives[i][3] + '"></iframe>';
+
+		if (typeof(wads_changeIframe_26150)=='undefined') {
+			wads_changeIframe_26150=function(){
+				window.frames['wads_iframe_' + wads_insertion_26150_creatives[i][3]].location.href=wads_insertion_26150_creatives[i][0];
+			};
+		};
+
+		wads.addLoadEvent(wads_changeIframe_26150);
+
+				output_26150+=wads.callMasterize(wads.creativeMasterize(26150, '<img src="' + wads.randomize(wads_insertion_26150_creatives[i][4]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />'));
+
+	};
+
+
+document.write(output_26150); }
+ };
+wads.scripts['push-right-1']={ 
+	 directVastUrl: '', 
+	 videoPlayerScriptUrl: 'http://ads.webedia.fr/include/videoplayer', 
+	 display: function(){ var output_26149='';
+
+
+wads_insertion_26149_creatives=new Array(1);
+
+
+			var creative=new Array(11);
+creative[0]='http://stcwbd.com/ads/9/26/14/9/@/47546-461266.gif';
+creative[1]='300';
+creative[2]='220';
+creative[3]='47546';
+creative[4]='http://ads.webedia.fr/imppix/i26149/c47546/p203/po1/cam[wads_call_master]/cm[wads_creative_master]/cid0/pl22720/r8623432';
+creative[5]='http://ads.webedia.fr/clickcmd/i26149/c47546/p203/po1/pl22720/r8623432';
+creative[6]=1;
+creative[7]='';
+creative[8]='';
+creative[9]='';
+creative[10]='';
+creative[11]='_blank';
+wads_insertion_26149_creatives[0]=creative;			
+
+	var i=0;
+
+	if(wads_insertion_26149_creatives[i][6]==1) {
+
+		output_26149+='<a target="' + wads_insertion_26149_creatives[i][11] + '" href="' + wads.randomize(wads_insertion_26149_creatives[i][5]) + '"><img src="' + wads_insertion_26149_creatives[i][0] + '" width="' + wads_insertion_26149_creatives[i][1] + '" height="' + wads_insertion_26149_creatives[i][2] + '" border="0" /></a>';
+
+				output_26149+=wads.callMasterize(wads.creativeMasterize(26149, '<img src="' + wads.randomize(wads_insertion_26149_creatives[i][4]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />'));
+
+				if(wads_insertion_26149_creatives[i][10]!='') {
+			output_26149+='<img src="' +  wads.randomize(wads_insertion_26149_creatives[i][10]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />';
+		};
+	}
+	else if(wads_insertion_26149_creatives[i][6]==2) {
+		if (wads.browser.hasFlash) {
+			/* flash */
+			output_26149+='<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="' + document.location.protocol + '//download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" ';
+			output_26149+=' id="wads_creative_' + wads_insertion_26149_creatives[i][3] + '" name="wads_creative_' + wads_insertion_26149_creatives[i][3] + '" width="' + wads_insertion_26149_creatives[i][1] + '" height="' + wads_insertion_26149_creatives[i][2] + '"> ';
+			output_26149+=' <param name="allowScriptAccess" value="always" />';
+			output_26149+=' <param name="movie" value="' + wads_insertion_26149_creatives[i][0] + '"> ';
+			output_26149+=' <param name="flashvars" value="wads_insertion_id=26149' + wads_insertion_26149_creatives[i][13] + '&target=' + wads_insertion_26149_creatives[i][12] + '&clicktag=' + wads.randomize(encodeURIComponent(wads_insertion_26149_creatives[i][5])) + '&clickTAG=' + wads.randomize(encodeURIComponent(wads_insertion_26149_creatives[i][5])) + '&clickTag=' + wads.randomize(encodeURIComponent(wads_insertion_26149_creatives[i][5])) + '"> ';
+			output_26149+=' <param name="quality" value="high"> ';
+			output_26149+=' <param name="wmode" value="' + wads_insertion_26149_creatives[i][12] + '"> ';
+			output_26149+=' <embed name="wads_creative_' + wads_insertion_26149_creatives[i][3] + '" id="wads_creative_' + wads_insertion_26149_creatives[i][3] + '" src="' + wads_insertion_26149_creatives[i][0] + '" flashvars="wads_insertion_id=26149' + wads_insertion_26149_creatives[i][13] + '&target='+ wads_insertion_26149_creatives[i][12] + '&clicktag=' + wads.randomize(encodeURIComponent(wads_insertion_26149_creatives[i][5])) + '&clickTAG=' + wads.randomize(encodeURIComponent(wads_insertion_26149_creatives[i][5])) + '&clickTag=' + wads.randomize(encodeURIComponent(wads_insertion_26149_creatives[i][5])) + '" ';
+			output_26149+=' swLiveConnect="true" width="' + wads_insertion_26149_creatives[i][1] + '" height="' + wads_insertion_26149_creatives[i][2] + '" ';
+			output_26149+=' quality="high" wmode="' + wads_insertion_26149_creatives[i][12] + '" ';
+			output_26149+=' allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer"> ';
+			output_26149+='</embed> ';
+			output_26149+='</object> ';
+		}
+		else if (!(navigator.appName && navigator.appName.indexOf('Netscape')>=0 && navigator.appVersion.indexOf('2.')>=0)) {
+			/* alternate image */
+			output_26149+='<a target="_blank" href="' + wads.randomize(wads_insertion_26149_creatives[i][5]) + '"><img src="' + wads_insertion_26149_creatives[i][7] + '" width="' + wads_insertion_26149_creatives[i][8] + '" height="' + wads_insertion_26149_creatives[i][9] + '" border="0" /></a>';
+		};
+
+				output_26149+=wads.callMasterize(wads.creativeMasterize(26149, '<img src="' + wads.randomize(wads_insertion_26149_creatives[i][4]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />'));
+
+				if(wads_insertion_26149_creatives[i][10]!='') {
+			output_26149+='<img src="' +  wads.randomize(wads_insertion_26149_creatives[i][10]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />';
+		};
+
+	}
+	else if(wads_insertion_26149_creatives[i][6]==3) {
+
+		output_26149+=wads.randomize(wads.mergeStringArray(wads_insertion_26149_creatives[i][7]));
+
+				output_26149+=wads.callMasterize(wads.creativeMasterize(26149, '<img src="' + wads.randomize(wads_insertion_26149_creatives[i][4]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />'));
+
+	}
+	else if(wads_insertion_26149_creatives[i][6]==4) {
+
+		output_26149+='<iframe src="' + wads_insertion_26149_creatives[i][0] + '" width="' + wads_insertion_26149_creatives[i][1] + '" height="' + wads_insertion_26149_creatives[i][2] + '" scrolling="no" frameborder="no" name="wads_iframe_' + wads_insertion_26149_creatives[i][3] + '"></iframe>';
+
+		if (typeof(wads_changeIframe_26149)=='undefined') {
+			wads_changeIframe_26149=function(){
+				window.frames['wads_iframe_' + wads_insertion_26149_creatives[i][3]].location.href=wads_insertion_26149_creatives[i][0];
+			};
+		};
+
+		wads.addLoadEvent(wads_changeIframe_26149);
+
+				output_26149+=wads.callMasterize(wads.creativeMasterize(26149, '<img src="' + wads.randomize(wads_insertion_26149_creatives[i][4]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />'));
+
+	};
+
+
+document.write(output_26149); }
+ };
+wads.scripts['full-site']={ 
+	 directVastUrl: '', 
+	 videoPlayerScriptUrl: 'http://ads.webedia.fr/include/videoplayer', 
+	 display: function(){ var output_26155='';
+
+
+wads_insertion_26155_creatives=new Array(1);
+
+
+			var creative=new Array(11);
+creative[0]='http://stcwbd.com/ads/5/26/15/5/@/47549-461782.jpg';
+creative[1]='810';
+creative[2]='90';
+creative[3]='47549';
+creative[4]='http://ads.webedia.fr/imppix/i26155/c47549/p203/po15/cam[wads_call_master]/cm[wads_creative_master]/cid0/pl22726/r9578110';
+creative[5]='http://ads.webedia.fr/clickcmd/i26155/c47549/p203/po15/pl22726/r9578110';
+creative[6]=1;
+creative[7]='';
+creative[8]='';
+creative[9]='';
+creative[10]='';
+creative[11]='_blank';
+wads_insertion_26155_creatives[0]=creative;			
+
+	var i=0;
+
+	if(wads_insertion_26155_creatives[i][6]==1) {
+
+		output_26155+='<a target="' + wads_insertion_26155_creatives[i][11] + '" href="' + wads.randomize(wads_insertion_26155_creatives[i][5]) + '"><img src="' + wads_insertion_26155_creatives[i][0] + '" width="' + wads_insertion_26155_creatives[i][1] + '" height="' + wads_insertion_26155_creatives[i][2] + '" border="0" /></a>';
+
+				output_26155+=wads.callMasterize(wads.creativeMasterize(26155, '<img src="' + wads.randomize(wads_insertion_26155_creatives[i][4]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />'));
+
+				if(wads_insertion_26155_creatives[i][10]!='') {
+			output_26155+='<img src="' +  wads.randomize(wads_insertion_26155_creatives[i][10]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />';
+		};
+	}
+	else if(wads_insertion_26155_creatives[i][6]==2) {
+		if (wads.browser.hasFlash) {
+			/* flash */
+			output_26155+='<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="' + document.location.protocol + '//download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" ';
+			output_26155+=' id="wads_creative_' + wads_insertion_26155_creatives[i][3] + '" name="wads_creative_' + wads_insertion_26155_creatives[i][3] + '" width="' + wads_insertion_26155_creatives[i][1] + '" height="' + wads_insertion_26155_creatives[i][2] + '"> ';
+			output_26155+=' <param name="allowScriptAccess" value="always" />';
+			output_26155+=' <param name="movie" value="' + wads_insertion_26155_creatives[i][0] + '"> ';
+			output_26155+=' <param name="flashvars" value="wads_insertion_id=26155' + wads_insertion_26155_creatives[i][13] + '&target=' + wads_insertion_26155_creatives[i][12] + '&clicktag=' + wads.randomize(encodeURIComponent(wads_insertion_26155_creatives[i][5])) + '&clickTAG=' + wads.randomize(encodeURIComponent(wads_insertion_26155_creatives[i][5])) + '&clickTag=' + wads.randomize(encodeURIComponent(wads_insertion_26155_creatives[i][5])) + '"> ';
+			output_26155+=' <param name="quality" value="high"> ';
+			output_26155+=' <param name="wmode" value="' + wads_insertion_26155_creatives[i][12] + '"> ';
+			output_26155+=' <embed name="wads_creative_' + wads_insertion_26155_creatives[i][3] + '" id="wads_creative_' + wads_insertion_26155_creatives[i][3] + '" src="' + wads_insertion_26155_creatives[i][0] + '" flashvars="wads_insertion_id=26155' + wads_insertion_26155_creatives[i][13] + '&target='+ wads_insertion_26155_creatives[i][12] + '&clicktag=' + wads.randomize(encodeURIComponent(wads_insertion_26155_creatives[i][5])) + '&clickTAG=' + wads.randomize(encodeURIComponent(wads_insertion_26155_creatives[i][5])) + '&clickTag=' + wads.randomize(encodeURIComponent(wads_insertion_26155_creatives[i][5])) + '" ';
+			output_26155+=' swLiveConnect="true" width="' + wads_insertion_26155_creatives[i][1] + '" height="' + wads_insertion_26155_creatives[i][2] + '" ';
+			output_26155+=' quality="high" wmode="' + wads_insertion_26155_creatives[i][12] + '" ';
+			output_26155+=' allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer"> ';
+			output_26155+='</embed> ';
+			output_26155+='</object> ';
+		}
+		else if (!(navigator.appName && navigator.appName.indexOf('Netscape')>=0 && navigator.appVersion.indexOf('2.')>=0)) {
+			/* alternate image */
+			output_26155+='<a target="_blank" href="' + wads.randomize(wads_insertion_26155_creatives[i][5]) + '"><img src="' + wads_insertion_26155_creatives[i][7] + '" width="' + wads_insertion_26155_creatives[i][8] + '" height="' + wads_insertion_26155_creatives[i][9] + '" border="0" /></a>';
+		};
+
+				output_26155+=wads.callMasterize(wads.creativeMasterize(26155, '<img src="' + wads.randomize(wads_insertion_26155_creatives[i][4]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />'));
+
+				if(wads_insertion_26155_creatives[i][10]!='') {
+			output_26155+='<img src="' +  wads.randomize(wads_insertion_26155_creatives[i][10]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />';
+		};
+
+	}
+	else if(wads_insertion_26155_creatives[i][6]==3) {
+
+		output_26155+=wads.randomize(wads.mergeStringArray(wads_insertion_26155_creatives[i][7]));
+
+				output_26155+=wads.callMasterize(wads.creativeMasterize(26155, '<img src="' + wads.randomize(wads_insertion_26155_creatives[i][4]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />'));
+
+	}
+	else if(wads_insertion_26155_creatives[i][6]==4) {
+
+		output_26155+='<iframe src="' + wads_insertion_26155_creatives[i][0] + '" width="' + wads_insertion_26155_creatives[i][1] + '" height="' + wads_insertion_26155_creatives[i][2] + '" scrolling="no" frameborder="no" name="wads_iframe_' + wads_insertion_26155_creatives[i][3] + '"></iframe>';
+
+		if (typeof(wads_changeIframe_26155)=='undefined') {
+			wads_changeIframe_26155=function(){
+				window.frames['wads_iframe_' + wads_insertion_26155_creatives[i][3]].location.href=wads_insertion_26155_creatives[i][0];
+			};
+		};
+
+		wads.addLoadEvent(wads_changeIframe_26155);
+
+				output_26155+=wads.callMasterize(wads.creativeMasterize(26155, '<img src="' + wads.randomize(wads_insertion_26155_creatives[i][4]) + '" width="0" height="0" style="position:absolute; top:0px; width:0px;" />'));
+
+	};
+
+
+document.write(output_26155); }
+ };

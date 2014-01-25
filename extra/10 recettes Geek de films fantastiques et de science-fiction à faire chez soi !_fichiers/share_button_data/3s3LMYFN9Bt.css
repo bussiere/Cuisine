@@ -1,0 +1,17 @@
+/*!CK:1889696025!*//*1387292936,178186555*/
+
+.pluginCountBox{background:#fff;border:1px solid #d3d3d3;font-size:13px;height:24px;margin:0;min-width:35px;padding:6px 1px 2px 3px;text-align:center;white-space:nowrap}
+.blueButton .pluginCountBox{border:1px solid #898f9c;border-radius:2px;color:#6a7180}
+.pluginCountBoxIcon{position:relative;top:2px;left:-3px}
+.pluginCountBoxTextOnly{padding:2px}
+.pluginCountBoxNub{position:relative;z-index:2;bottom:1px;height:7px;left:7px;width:0}
+.pluginCountBoxNub s, .pluginCountBoxNub i{border-color:#D3D3D3 transparent transparent;border-right:5px solid transparent;border-style:solid;border-width:5px;display:block;position:relative}
+.blueButton .pluginCountBoxNub s, .blueButton .pluginCountBoxNub i{border-color:#898f9c transparent transparent}
+.pluginCountBoxNub i, .blueButton .pluginCountBoxNub i{border-top-color:#fff;left:0;top:-12px}
+.pluginCountBoxDark{border-color:#c7c7c7;background:#c7c7c7;color:#333}
+.pluginCountBoxDarkNub s{border-top-color:#c7c7c7}
+.pluginCountBoxDarkNub i{display:none}
+._5ve{width:100%}
+
+#bootloader_rKjYY { height: 42px; }
+.bootloader_rKjYY { display:block !important; }

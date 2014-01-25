@@ -1,0 +1,103 @@
+span.normal { font-family: "DidotLTStd"; }
+
+/* Sizes, from 18 to 50 */
+span.font-size-18 { font-size: 18px !important; }
+span.font-size-19 { font-size: 19px !important; }
+span.font-size-20 { font-size: 20px !important; }
+span.font-size-21 { font-size: 21px !important; }
+span.font-size-22 { font-size: 22px !important; }
+span.font-size-23 { font-size: 23px !important; }
+span.font-size-24 { font-size: 24px !important; }
+span.font-size-25 { font-size: 25px !important; }
+span.font-size-26 { font-size: 26px !important; }
+span.font-size-27 { font-size: 27px !important; }
+span.font-size-28 { font-size: 28px !important; }
+span.font-size-29 { font-size: 29px !important; }
+span.font-size-30 { font-size: 30px !important; }
+span.font-size-31 { font-size: 31px !important; }
+span.font-size-32 { font-size: 32px !important; }
+span.font-size-33 { font-size: 33px !important; }
+span.font-size-34 { font-size: 34px !important; }
+span.font-size-35 { font-size: 35px !important; }
+span.font-size-36 { font-size: 36px !important; }
+span.font-size-37 { font-size: 37px !important; }
+span.font-size-38 { font-size: 38px !important; }
+span.font-size-39 { font-size: 39px !important; }
+span.font-size-40 { font-size: 40px !important; }
+span.font-size-41 { font-size: 41px !important; }
+span.font-size-42 { font-size: 42px !important; }
+span.font-size-43 { font-size: 43px !important; }
+span.font-size-44 { font-size: 44px !important; }
+span.font-size-45 { font-size: 45px !important; }
+span.font-size-46 { font-size: 46px !important; }
+span.font-size-47 { font-size: 47px !important; }
+span.font-size-48 { font-size: 48px !important; }
+span.font-size-49 { font-size: 59px !important; }
+span.font-size-50 { font-size: 50px !important; }
+
+/* Font family*/
+span.font-family-GillSansStd { font-family: "GillSansStdRegular" !important; }
+span.font-family-GillSansStd-Bold { font-family: "GillSansStdBold" !important; }
+
+span.font-family-DidotLTStdRoman { font-family: "DidotLTStdRoman" !important; }
+span.font-family-DidotLTStdBold { font-family: "DidotLTStdBold" !important; }
+span.font-family-DidotLTStdHeadline { font-family: "DidotLTStdHeadline" !important; }
+span.font-family-DidotLTStdItalic { font-family: "DidotLTStdItalic" !important; }
+span.font-family-DidotLTStdOrnaments { font-family: "DidotLTStdOrnaments" !important; }
+
+/* Line height */
+span.line-height-40 { line-height: 40px !important; }
+span.line-height-41 { line-height: 41px !important; }
+span.line-height-42 { line-height: 42px !important; }
+span.line-height-43 { line-height: 43px !important; }
+span.line-height-44 { line-height: 44px !important; }
+span.line-height-45 { line-height: 45px !important; }
+span.line-height-46 { line-height: 46px !important; }
+span.line-height-47 { line-height: 47px !important; }
+span.line-height-48 { line-height: 48px !important; }
+span.line-height-49 { line-height: 49px !important; }
+span.line-height-50 { line-height: 50px !important; }
+span.line-height-51 { line-height: 51px !important; }
+span.line-height-52 { line-height: 52px !important; }
+span.line-height-53 { line-height: 53px !important; }
+span.line-height-54 { line-height: 54px !important; }
+span.line-height-55 { line-height: 55px !important; }
+span.line-height-56 { line-height: 56px !important; }
+span.line-height-57 { line-height: 57px !important; }
+span.line-height-58 { line-height: 58px !important; }
+span.line-height-59 { line-height: 59px !important; }
+span.line-height-60 { line-height: 60px !important; }
+span.line-height-61 { line-height: 61px !important; }
+span.line-height-62 { line-height: 62px !important; }
+span.line-height-63 { line-height: 63px !important; }
+span.line-height-64 { line-height: 64px !important; }
+span.line-height-65 { line-height: 65px !important; }
+span.line-height-66 { line-height: 66px !important; }
+span.line-height-67 { line-height: 67px !important; }
+span.line-height-68 { line-height: 68px !important; }
+span.line-height-69 { line-height: 69px !important; }
+span.line-height-70 { line-height: 70px !important; }
+
+/* Color overrides */
+span.color-ddd5ca { color: #ddd5ca !important; }
+span.bg-color-ddd5ca { background-color: #ddd5ca !important; }
+span.color-000000 { color: #000000 !important; }
+span.bg-color-000000 { background-color: #000000 !important; }
+span.color-ffffff { color: #ffffff !important; }
+span.bg-color-ffffff { background-color: #ffffff !important; }
+span.color-fcd70b { color: #fcd70b !important; }
+span.bg-color-fcd70b { background-color: #fcd70b !important; }
+span.color-947f60 { color: #947f60 !important; }
+span.bg-color-947f60 { background-color: #947f60 !important; }
+span.color-e2001a { color: #e2001a !important; }
+span.bg-color-e2001a { background-color: #e2001a !important; }
+span.color-98989a { color: #98989a !important; }
+span.bg-color-98989a { background-color: #98989a !important; }
+
+/* Misc */
+span.clear { display: block !important; }
+span.uppercase { text-transform: uppercase !important; }
+span.lowercase { text-transform: lowercase !important; }
+span.align-left { float:left !important; }
+span.align-right { float:right !important; }
+span.align-center { width:100%;text-align:center;display:block; }

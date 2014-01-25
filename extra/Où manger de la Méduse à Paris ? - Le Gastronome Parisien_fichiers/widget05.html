@@ -1,0 +1,100 @@
+document.getElementById("hellocoton_load_910035").style.display="none";
+
+		
+	document.getElementById("hellocoton_vote_910035").style.display="block";
+		
+
+document.getElementById("hellocoton_vote_910035").onclick = function() {
+	
+	document.getElementById("hellocoton_vote_910035").style.display = "none";
+	document.getElementById("hellocoton_unvote_910035").style.display = "block";
+	growl("add");
+
+	var script = document.createElement("script");
+	script.src = "http://widget.hellocoton.fr/vote.php?id=8975457";
+	document.body.appendChild(script);
+	
+	return false;
+}
+
+
+document.getElementById("hellocoton_unvote_910035").onclick = function() {
+
+	document.getElementById("hellocoton_vote_910035").style.display = "block";
+	document.getElementById("hellocoton_unvote_910035").style.display = "none";
+	growl("del");
+
+	var script = document.createElement("script");
+	script.src = "http://widget.hellocoton.fr/unvote.php?id=8975457";
+	document.body.appendChild(script);
+
+	return false;
+
+}
+
+function growl(mode) {
+	
+	var growl = document.getElementById("growl-hellocoton");
+	if (growl) {
+		document.body.removeChild(growl);
+	}
+
+	var top =  document.body.scrollTop;
+	if (top <= 0) {
+		top = document.documentElement.scrollTop;
+	}
+
+	var div = document.createElement("div");
+	div.style.position="absolute";
+	div.style.color = "white";
+	div.style.fontFamily = '"Lucida Grande",Arial,Helvetica,Verdana,sans-serif';
+	div.style.top = (top+180)+"px";
+	div.style.left = "50%";
+	div.style.marginLeft = "-105px";
+	div.align = "center";
+	div.id = "growl-hellocoton"
+
+	div.style.opacity = "0";
+	div.style.filter = "alpha(opacity=0)";
+
+	var img = document.createElement("img");
+	img.width="180";
+	img.height="180";
+	img.src=hellocoton_plugin_url+"bezel.gif"
+	img.style.position="absolute";
+	img.style.zIndex="998";
+
+	div.appendChild(img);
+
+	if (mode == "add") {
+		div.innerHTML += '<div style="z-index:999;position:absolute;width:180px;"><img style="cursor:pointer;position:absolute;top:10px;right:10px;" src="'+hellocoton_plugin_url+'close.gif" onclick="javascript:remOpacity();return false;" title="fermer" alt="fermer" /><h3 style="margin: 0pt; padding: 67px 0px 0px; font-size: 14px;color:#FFAACC;background:transparent;text-align:center;font-family:Arial,sans-serif;border:0;font-style:normal;">Merci !</h3><a style="display:block;height:30px;width:140px;margin-top:50px;text-indent:-5000px;" href="http://www.hellocoton.fr">http://www.hellocoton.fr</a></div>';
+	} else {
+		div.innerHTML += '<div style="z-index:999;position:absolute;width:180px;"><img style="cursor:pointer;position:absolute;top:10px;right:10px;" src="'+hellocoton_plugin_url+'close.gif" onclick="javascript:remOpacity();return false;" title="fermer" alt="fermer" /><h3 style="margin: 0pt; padding: 67px 0px 0px; font-size: 14px;color:#FFAACC;background:transparent;text-align:center;font-family:Arial,sans-serif;border:0;font-style:normal;">Vote annul&eacute;</h3><a style="display:block;height:30px;width:140px;margin-top:50px;text-indent:-5000px;" href="http://www.hellocoton.fr">http://www.hellocoton.fr</a></div>';
+	}
+
+	document.body.appendChild(div);
+
+	var opac = 0;
+	setOpacity = function() {
+		div.style.opacity = opac;
+		div.style.filter = (opac==1)? "":"alpha(opacity="+opac*100+")";
+		if (opac >= 1) {
+			window.setTimeout(remOpacity,1000);
+			return;
+		}
+		opac=opac+0.1;
+		window.setTimeout(setOpacity,40);
+	}
+	setOpacity();
+		
+	remOpacity = function() {
+		div.style.opacity = opac;
+		div.style.filter = (opac==1)? "":"alpha(opacity="+opac*100+")";
+		if (opac <= 0) {
+			div.style.display="none";
+			return;
+		}
+		opac=opac-0.1;
+		window.setTimeout(remOpacity,20);
+	}
+}
